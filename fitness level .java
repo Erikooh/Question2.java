@@ -1,12 +1,12 @@
 // Question 2: Fitness App - Determine Fitness Level
-// Author: Erick
+// Author: S08-8511-2024
 // Date: Nov 24, 2025
 
 import java.util.Scanner;
 
 public class Question2 {
 
-    // Method to determine fitness level based on steps
+  
     public static String getFitnessLevel(int steps) {
         if (steps >= 10000) {
             return "Excellent";
@@ -26,7 +26,7 @@ public class Question2 {
         System.out.print("Enter your steps for today: ");
         int steps = scanner.nextInt();
 
-        // Call method and display result
+ 
         String fitnessLevel = getFitnessLevel(steps);
         System.out.println("Your fitness level: " + fitnessLevel);
 
